@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "RLadies+ Geneva"
+  description: "The Geneva chapter of RLadies+ — gender diversity in the R community."
+
+format:
+  html:
+    theme: none          # disable Bootstrap; our custom CSS owns the page
+    css: styles.css
+    include-in-header: head.html
+    page-layout: custom  # no default Quarto grid/navbar chrome
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true

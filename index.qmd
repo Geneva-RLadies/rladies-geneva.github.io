@@ -1,0 +1,334 @@
+---
+pagetitle: "RLadies+ Geneva — gender diversity in the R community"
+description: "RLadies+ Geneva is the Geneva chapter of the global RLadies+ network, promoting gender diversity in the R community through free, welcoming meetups, talks and workshops."
+---
+
+```{=html}
+<a href="#main" class="skip">Skip to content</a>
+
+<header>
+  <nav class="nav wrap" aria-label="Primary">
+    <a class="brand" href="#top" aria-label="RLadies+ Geneva home">
+      RLadies<span class="plus">+</span> Geneva
+      <small>GENDER DIVERSITY IN R</small>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="menu">
+      <a href="#about">About</a>
+      <a href="#do">What we do</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#events">Events</a>
+      <a href="#involve">Get involved</a>
+      <a href="#connect">Connect</a>
+      <!-- TODO: replace with your Meetup URL -->
+      <a class="btn btn-primary" href="https://www.meetup.com/rladies-geneva/" target="_blank" rel="noopener">Join us</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+<a id="top"></a>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="lattice" aria-hidden="true"></div>
+  <div class="wrap">
+    <h1>The R community in Geneva, for <em>everyone</em>&nbsp;<span class="plus">+</span></h1>
+    <p class="lede">RLadies+ Geneva is the Geneva chapter of the global RLadies+ network. Our goal is to bring more women and underrepresented people into the R community — through free, welcoming meetups, talks and hands-on workshops. We're a diverse, open group, and everyone who supports that goal is welcome to join.</p>
+    <div class="cta-row">
+      <!-- TODO: replace with your Meetup URL -->
+      <a class="btn btn-primary" href="https://www.meetup.com/rladies-geneva/" target="_blank" rel="noopener">Join on Meetup</a>
+      <a class="btn btn-ghost" href="#about">What we're about</a>
+    </div>
+    <p class="console"><b>library</b>(rladies)&nbsp;&nbsp;<span style="color:#8a8a9a">#</span> Geneva · Suisse romande · online &amp; in person</p>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <span class="eyebrow">about</span>
+        <h2>A local chapter of a worldwide movement</h2>
+        <div class="body" style="margin-top:1.1rem">
+          <p>RLadies+ is a worldwide organisation whose mission is to promote gender diversity in the R community. R is one of the most widely used languages for statistics, data science and reproducible research — and the people who use it should reflect the world it describes.</p>
+          <p>In Geneva, we bring that mission home: a friendly space for R users across the region's universities, hospitals, international organisations, NGOs and industry to learn from each other, present their work, and grow — whatever their level.</p>
+          <p>No prior experience is required. Curiosity is enough.</p>
+          <p><b>You don't have to be a woman or from an underrepresented group to belong.</b> Our meetups are open to all genders — men included. What unites us is the shared goal, not who we are.</p>
+        </div>
+      </div>
+      <aside class="card card--join" aria-label="Who we are">
+        <h3>Who we are</h3>
+        <p class="who"><b>A diverse, open community with one shared goal: more women and underrepresented people in R.</b></p>
+        <p class="who" style="margin-top:.9rem">Whatever your gender, background or experience level, if you support that goal, you belong here.</p>
+        <p class="who" style="margin-top:.9rem; color:var(--ink-70)"><span class="plus">+</span> Come to learn, present, mentor, or simply meet people — everyone is encouraged to take part.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT WE DO ============ -->
+<section class="section doing" id="do">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">what we do</span>
+      <h2>Learn, present, connect</h2>
+      <p>Every gathering is free and open. Come to listen, or step up and share.</p>
+    </div>
+    <div class="grid-3">
+      <article class="tile reveal">
+        <div class="tag"># talks</div>
+        <h3>Meetups &amp; talks</h3>
+        <p>Regular sessions with speakers from academia, the public sector and industry — real projects, real code, real questions.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="tag"># workshops</div>
+        <h3>Hands-on workshops</h3>
+        <p>Practical skills you can use the next day: the tidyverse, Shiny, Quarto, package development, statistics and visualisation.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="tag"># network</div>
+        <h3>Community &amp; network</h3>
+        <p>Meet R users across Geneva's research, data and NGO scene. Find collaborators, mentors, and your next opportunity.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="tag"># firsts</div>
+        <h3>First-time speakers</h3>
+        <p>Never given a talk before? We'll help you prepare and give your first one in a supportive room. Everyone starts somewhere.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="tag"># mentoring</div>
+        <h3>Peer mentoring</h3>
+        <p>Stuck on an analysis or a career decision? Bring it along. Our community shares knowledge generously and without judgement.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="tag"># bilingue</div>
+        <h3>English &amp; français</h3>
+        <p>Geneva is international. Sessions run mostly in English, with French welcome — bring your questions in whichever suits you.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EVIDENCE ============ -->
+<section class="section evidence" id="evidence">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">evidence</span>
+      <h2>Why a community like this matters</h2>
+      <p>The gap in data science and statistics is not a story about ability — it is about who feels they belong, and that is something a community can change. Here is what the evidence shows.</p>
+    </div>
+
+    <p class="evi-sub">the gap is real</p>
+    <div class="stat-grid">
+      <div class="stat reveal">
+        <div class="fig">~11%</div>
+        <p>About 11% of authors of R packages are women — the people who build the tools the whole community depends on. That share has barely moved from roughly 9% in 2010.</p>
+        <span class="src">Forwards · R Foundation task force, 2017</span>
+      </div>
+      <div class="stat reveal">
+        <div class="fig">&lt; 1 in 5</div>
+        <p>Fewer than one in five data scientists are women. On Kaggle, the field's largest community, women have hovered between about 16% and 22% of participants for years.</p>
+        <span class="src">Kaggle surveys · peer-reviewed analysis, 2023</span>
+      </div>
+      <div class="stat reveal">
+        <div class="fig">34% &rarr; 16%</div>
+        <p>Women are about a third of scientific authors worldwide, but only ~16% of the most-cited researchers. The gap <b>widens with seniority</b> — exactly where the role models thin out.</p>
+        <span class="src">Quantitative Science Studies, 2022</span>
+      </div>
+    </div>
+
+    <p class="evi-sub">what actually moves the numbers</p>
+    <div class="mech-grid">
+      <div class="mech reveal">
+        <div class="fig">100% stayed</div>
+        <h3>Role models keep women in</h3>
+        <p>In a randomised field experiment, first-year women in engineering given a <b>female</b> peer mentor had 100% retention in their major after one year — versus 82% with a male mentor and 89% with none. Belonging and confidence, not GPA, best predicted who stayed.</p>
+        <span class="ref">Dennehy &amp; Dasgupta, 2017 · PNAS</span>
+      </div>
+      <div class="mech reveal">
+        <div class="fig">effect persisted</div>
+        <h3>And the effect lasts</h3>
+        <p>Followed to graduation and a year beyond, the same women showed higher STEM-degree completion, more internships, and sustained ambition to continue. A brief early intervention, durable results.</p>
+        <span class="ref">Wu, Thiem &amp; Dasgupta, 2022 · Nature Communications</span>
+      </div>
+      <div class="mech reveal">
+        <div class="fig">more voice</div>
+        <h3>Peers change participation</h3>
+        <p>Women placed alongside female peers in small technical groups spoke up more, felt more motivated, and reported stronger career aspirations than those doing identical work in male-dominated groups.</p>
+        <span class="ref">Dasgupta, Scircle &amp; Hunsinger, 2015 · PNAS</span>
+      </div>
+    </div>
+
+    <p class="bridge">These trials isolate the exact mechanisms a chapter like ours is built to supply: <b>visible role models, a peer network, and a sense of belonging</b>. RLadies+ Geneva has not been run as a controlled trial — but the ingredients the evidence points to are precisely the ones we put in one room, every meetup. And the stakes are not only fairness: the European Commission estimates that closing the digital gender gap could add roughly <b>€260–600 billion</b> to EU GDP.</p>
+
+    <div class="sources">
+      <h4>SOURCES</h4>
+      <ol>
+        <li>Forwards — the R Foundation's diversity task force. About 11% of R package authors identified as women in 2017 (up from ~9% in 2010). <a href="https://forwards.github.io/data.html" target="_blank" rel="noopener">forwards.github.io/data</a></li>
+        <li>Kaggle, State of Data Science &amp; Machine Learning surveys — women were roughly 16–22% of respondents; and "The Data Science Gender Gap in the Kaggle Community" (Academy of Management Proceedings, 2023), reporting women as under 20% of data scientists. <a href="https://www.kaggle.com/kaggle-survey-2022" target="_blank" rel="noopener">kaggle.com</a></li>
+        <li>Gender gap among highly cited researchers, 2014–2021. Quantitative Science Studies, 3(4), 1003 (2022) — women ~34% of authors globally but ~16% of the most-cited. <a href="https://direct.mit.edu/qss/article/3/4/1003/113322" target="_blank" rel="noopener">direct.mit.edu/qss</a></li>
+        <li>European Commission, "Women in Digital" — the estimated €260–600 billion EU GDP gain from closing the digital gender gap. <a href="https://digital-strategy.ec.europa.eu/en/policies/women-digital" target="_blank" rel="noopener">digital-strategy.ec.europa.eu</a></li>
+        <li>Dennehy, T. C., &amp; Dasgupta, N. (2017). Female peer mentors early in college increase women's retention in engineering. PNAS, 114(23), 5964–5969. <a href="https://doi.org/10.1073/pnas.1613117114" target="_blank" rel="noopener">doi:10.1073/pnas.1613117114</a></li>
+        <li>Wu, D. J., Thiem, K. C., &amp; Dasgupta, N. (2022). Female peer mentors have lasting positive impacts beyond graduation. Nature Communications, 13, 6837. <a href="https://www.nature.com/articles/s41467-022-34508-x" target="_blank" rel="noopener">nature.com/articles/s41467-022-34508-x</a></li>
+        <li>Dasgupta, N., Scircle, M. M., &amp; Hunsinger, M. (2015). Female peers in small work groups enhance women's motivation, participation, and career aspirations. PNAS, 112(16), 4988–4993.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EVENTS ============ -->
+<section class="section" id="events">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">events</span>
+      <h2>Next meetup</h2>
+    </div>
+
+    <!-- ================= EDIT THIS BLOCK FOR EACH EVENT ================= -->
+    <div class="event reveal">
+      <div class="date" aria-hidden="true">
+        <span class="d">TBA</span>
+        <span class="m">2026</span>
+      </div>
+      <div>
+        <h3>Launch meetup — RLadies+ Geneva</h3>
+        <p class="meta">
+          <span>📍 Venue to be confirmed, Geneva</span> &nbsp;·&nbsp;
+          <span>🕕 18:00</span> &nbsp;·&nbsp;
+          <span>Free · all welcome</span>
+        </p>
+        <p class="meta" style="margin-top:.5rem">Come meet the community, hear our plans for the chapter, and shape what we do next. Lightning talks and introductions.</p>
+      </div>
+      <!-- TODO: replace with the event's Meetup URL -->
+      <a class="btn btn-dark" href="https://www.meetup.com/rladies-geneva/" target="_blank" rel="noopener">RSVP</a>
+    </div>
+    <!-- ================================================================= -->
+
+    <p class="event-note"><span class="plus">+</span> All upcoming events are announced and RSVP'd on our <!-- TODO: Meetup URL --><a href="https://www.meetup.com/rladies-geneva/" target="_blank" rel="noopener" style="color:var(--violet);font-weight:600">Meetup page</a>. Follow it to be notified when the next date is set.</p>
+  </div>
+</section>
+
+<!-- ============ GET INVOLVED ============ -->
+<section class="section involve" id="involve">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">get involved</span>
+      <h2>There's a place for you</h2>
+      <p>However much time you have, there's a way to be part of it.</p>
+    </div>
+    <div class="grid-4">
+      <div class="step reveal">
+        <div class="num">01</div>
+        <h3>Attend</h3>
+        <p>RSVP to the next meetup on Meetup and just show up. No experience needed.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">02</div>
+        <h3>Speak</h3>
+        <p>Propose a talk or a five-minute lightning demo. We'll help you get ready.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">03</div>
+        <h3>Host or sponsor</h3>
+        <p>Offer a room, refreshments or support. Reach a community of R users.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">04</div>
+        <h3>Co-organise</h3>
+        <p>Help run the chapter — planning, outreach, or hosting. We'd love the hand.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CODE OF CONDUCT BAND ============ -->
+<section class="band">
+  <div class="wrap">
+    <div>
+      <h2>A safe, respectful space — always</h2>
+      <p>Every RLadies+ event follows the global Code of Conduct. We're committed to a harassment-free experience for everyone, regardless of gender, background or experience.</p>
+    </div>
+    <div class="band-cta">
+      <a class="btn" href="https://guide.rladies.org/about/coc/" target="_blank" rel="noopener">Read the Code of Conduct</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONNECT ============ -->
+<section class="section connect" id="connect">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">connect</span>
+      <h2>Find us</h2>
+      <p>Follow along, say hi, or ask us anything.</p>
+    </div>
+    <div class="links">
+      <!-- TODO: confirm/replace each URL and the email below -->
+      <a class="link-card" href="https://www.meetup.com/rladies-geneva/" target="_blank" rel="noopener">
+        <b>Meetup</b><span>events &amp; RSVPs</span>
+      </a>
+      <a class="link-card" href="https://rladies.org/" target="_blank" rel="noopener">
+        <b>Community Slack</b><span>global R-Ladies workspace</span>
+      </a>
+      <a class="link-card" href="https://github.com/rladies" target="_blank" rel="noopener">
+        <b>GitHub</b><span>github.com/rladies</span>
+      </a>
+      <a class="link-card" href="https://bsky.app/" target="_blank" rel="noopener">
+        <b>Bluesky</b><span>@rladiesgeneva</span>
+      </a>
+      <a class="link-card" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <b>LinkedIn</b><span>RLadies+ Geneva</span>
+      </a>
+      <a class="link-card" href="mailto:geneva@rladies.org">
+        <b>Email</b><span>geneva@rladies.org</span>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <span class="brand">RLadies<span class="plus" style="color:var(--rose)">+</span> Geneva<br /><small>GENDER DIVERSITY IN THE R COMMUNITY</small></span>
+      </div>
+      <nav aria-label="Footer" style="display:flex; gap:1.4rem; flex-wrap:wrap;">
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#involve">Get involved</a>
+        <a href="https://guide.rladies.org/about/coc/" target="_blank" rel="noopener">Code of Conduct</a>
+      </nav>
+    </div>
+    <p class="fine">
+      RLadies+ Geneva is a local chapter of <a href="https://rladies.org/" target="_blank" rel="noopener">RLadies+</a>, a worldwide organisation promoting gender diversity in the R community.
+      · Content licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+      · Built for the community, with R 💜
+    </p>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.getElementById('menu');
+  toggle.addEventListener('click', () => {
+    const open = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+  menu.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => { menu.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); })
+  );
+
+  // Scroll reveal (respects reduced motion via CSS fallback)
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+```
