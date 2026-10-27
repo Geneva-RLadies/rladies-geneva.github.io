@@ -90,9 +90,12 @@
     border-bottom: 1px solid rgba(47,47,48,.08);
   }
   .nav { display: flex; align-items: center; justify-content: space-between; height: 68px; }
-  .brand { font-weight: 700; font-size: 1.15rem; letter-spacing: -0.02em; text-decoration: none; color: var(--ink); }
+  .brand { display: flex; align-items: center; gap: .6rem; font-weight: 700; font-size: 1.15rem; letter-spacing: -0.02em; text-decoration: none; color: var(--ink); }
+  .brand-mark { width: 42px; height: 48px; flex: none; display: block; }
+  .brand-text { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.05; }
+  .brand-title { white-space: nowrap; }
   .brand .plus { font-size: 1.25em; }
-  .brand small { display: block; font-weight: 500; font-size: .62rem; letter-spacing: .18em; color: var(--ink-70); margin-top: -3px; }
+  .brand small { display: block; font-weight: 500; font-size: .62rem; letter-spacing: .18em; color: var(--ink-70); margin-top: 1px; }
   .nav-links { display: flex; align-items: center; gap: 1.6rem; }
   .nav-links a:not(.btn) { text-decoration: none; font-weight: 500; font-size: .95rem; color: var(--ink); }
   .nav-links a:not(.btn):hover { color: var(--violet); }
@@ -147,7 +150,14 @@
     position: absolute; inset: 0; opacity: .10; pointer-events: none;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Cpath d='M24 18v12M18 24h12' stroke='%23ededf4' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E");
   }
-  .hero .wrap { position: relative; z-index: 2; }
+  .hero .wrap { position: relative; z-index: 2; display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 2.5rem; align-items: start; }
+  .hero-art { display: flex; justify-content: center; }
+  .hero-art svg { width: 100%; max-width: 300px; height: auto; filter: drop-shadow(0 22px 48px rgba(0,0,0,.45)); }
+  @media (max-width: 860px) {
+    .hero .wrap { grid-template-columns: 1fr; }
+    .hero-art { order: -1; margin-bottom: .4rem; }
+    .hero-art svg { max-width: 180px; }
+  }
 
   .hero h1 {
     font-weight: 600;

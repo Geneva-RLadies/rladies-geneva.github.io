@@ -1,7 +1,7 @@
 # RLadies+ Geneva — Quarto site
 
 The Geneva chapter of [RLadies+](https://rladies.org/), a worldwide organisation
-promoting gender diversity in the R community.
+promoting diversity in the R community.
 
 Built with [Quarto](https://quarto.org). The page is a single `index.qmd` that
 carries the design as a raw-HTML block; the visual identity lives in

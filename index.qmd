@@ -9,8 +9,35 @@ description: "RLadies+ Geneva is the Geneva chapter of the global RLadies+ netwo
 <header>
   <nav class="nav wrap" aria-label="Primary">
     <a class="brand" href="#top" aria-label="RLadies+ Geneva home">
-      RLadies<span class="plus">+</span> Geneva
-      <small>DIVERSITY IN R</small>
+      <svg class="brand-mark" viewBox="0 0 520 600" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lg-sky" x1="0" y1="30" x2="0" y2="405" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#5b15c9"/><stop offset="0.55" stop-color="#8f4ff6"/><stop offset="1" stop-color="#d9c6ff"/>
+          </linearGradient>
+          <linearGradient id="lg-lake" x1="0" y1="405" x2="0" y2="575" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#2f74ea"/><stop offset="0.5" stop-color="#1551c4"/><stop offset="1" stop-color="#0a2f86"/>
+          </linearGradient>
+          <linearGradient id="lg-jet" x1="0" y1="100" x2="0" y2="405" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffffff" stop-opacity="0.82"/><stop offset="0.25" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#eaf2ff"/>
+          </linearGradient>
+          <radialGradient id="lg-mist" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff" stop-opacity="0.5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+          <clipPath id="lg-hex"><polygon points="260,30 494,165 494,435 260,570 26,435 26,165"/></clipPath>
+        </defs>
+        <polygon points="260,10 511,155 511,445 260,590 9,445 9,155" fill="#881ef9" stroke="#2f2f30" stroke-width="4" stroke-linejoin="round"/>
+        <g clip-path="url(#lg-hex)">
+          <rect x="26" y="30" width="468" height="378" fill="url(#lg-sky)"/>
+          <rect x="26" y="405" width="468" height="170" fill="url(#lg-lake)"/>
+          <ellipse cx="250" cy="250" rx="70" ry="180" fill="url(#lg-mist)"/>
+          <ellipse cx="250" cy="406" rx="95" ry="6" fill="#fff" opacity="0.22"/>
+          <ellipse cx="250" cy="405" rx="55" ry="8" fill="#fff" opacity="0.48"/>
+          <path d="M242,406 C240,350 241,320 243,285 C245,245 246,205 249,160 C250,134 251,118 253,104 L265,104 C267,118 268,134 267,160 C263,205 262,245 258,285 C260,320 261,350 259,406 Z" fill="url(#lg-jet)"/>
+          <g fill="#fff">
+            <circle cx="258" cy="96" r="11" opacity="0.95"/><circle cx="246" cy="88" r="8" opacity="0.9"/><circle cx="270" cy="92" r="7" opacity="0.85"/><circle cx="252" cy="74" r="6" opacity="0.8"/><circle cx="264" cy="78" r="5" opacity="0.75"/><circle cx="258" cy="62" r="4" opacity="0.6"/>
+          </g>
+        </g>
+        <polygon points="260,30 494,165 494,435 260,570 26,435 26,165" fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <span class="brand-text"><span class="brand-title">RLadies<span class="plus">+</span> Geneva</span><small>DIVERSITY IN R</small></span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu">
       <span></span><span></span><span></span>
@@ -35,14 +62,55 @@ description: "RLadies+ Geneva is the Geneva chapter of the global RLadies+ netwo
 <section class="hero">
   <div class="lattice" aria-hidden="true"></div>
   <div class="wrap">
-    <h1>The R community in Geneva, for <em>everyone</em>&nbsp;<span class="plus">+</span></h1>
-    <p class="lede">RLadies+ Geneva is the Geneva chapter of the global RLadies+ network. Our goal is to bring more women and underrepresented people into the R community — through free, welcoming meetups, talks and hands-on workshops. We're a diverse, open group, and everyone who supports that goal is welcome to join.</p>
-    <div class="cta-row">
-      <!-- TODO: replace with your Meetup URL -->
-      <a class="btn btn-primary" href="https://www.meetup.com/rladies-geneva/" target="_blank" rel="noopener">Join on Meetup</a>
-      <a class="btn btn-ghost" href="#about">What we're about</a>
+    <div class="hero-copy">
+      <h1>The R community in Geneva, for <em>everyone</em>&nbsp;<span class="plus">+</span></h1>
+      <p class="lede">RLadies+ Geneva is the Geneva chapter of the global RLadies+ network. Our goal is to bring more women and underrepresented people into the R community — through free, welcoming meetups, talks and hands-on workshops. We're a diverse, open group, and everyone who supports that goal is welcome to join.</p>
+      <div class="cta-row">
+        <!-- TODO: replace with your Meetup URL -->
+        <a class="btn btn-primary" href="https://www.meetup.com/rladies-geneva/" target="_blank" rel="noopener">Join on Meetup</a>
+        <a class="btn btn-ghost" href="#about">What we're about</a>
+      </div>
+      <p class="console"><b>library</b>(rladies)&nbsp;&nbsp;<span style="color:#8a8a9a">#</span> Geneva · Suisse romande · online &amp; in person</p>
     </div>
-    <p class="console"><b>library</b>(rladies)&nbsp;&nbsp;<span style="color:#8a8a9a">#</span> Geneva · Suisse romande · online &amp; in person</p>
+    <div class="hero-art">
+      <svg class="hero-badge" viewBox="0 0 520 600" role="img" aria-label="RLadies+ Geneva hex logo featuring the Jet d'Eau" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="h-sky" x1="0" y1="30" x2="0" y2="405" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#5b15c9"/><stop offset="0.55" stop-color="#8f4ff6"/><stop offset="1" stop-color="#d9c6ff"/>
+          </linearGradient>
+          <linearGradient id="h-lake" x1="0" y1="405" x2="0" y2="575" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#2f74ea"/><stop offset="0.5" stop-color="#1551c4"/><stop offset="1" stop-color="#0a2f86"/>
+          </linearGradient>
+          <linearGradient id="h-jet" x1="0" y1="100" x2="0" y2="405" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffffff" stop-opacity="0.82"/><stop offset="0.25" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#eaf2ff"/>
+          </linearGradient>
+          <radialGradient id="h-mist" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff" stop-opacity="0.5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+          <linearGradient id="h-reflect" x1="0" y1="406" x2="0" y2="470" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" stop-opacity="0.28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+          </linearGradient>
+          <clipPath id="h-hex"><polygon points="260,30 494,165 494,435 260,570 26,435 26,165"/></clipPath>
+        </defs>
+        <polygon points="260,10 511,155 511,445 260,590 9,445 9,155" fill="#881ef9" stroke="#2f2f30" stroke-width="4" stroke-linejoin="round"/>
+        <g clip-path="url(#h-hex)">
+          <rect x="26" y="30" width="468" height="378" fill="url(#h-sky)"/>
+          <rect x="26" y="405" width="468" height="170" fill="url(#h-lake)"/>
+          <ellipse cx="250" cy="250" rx="70" ry="180" fill="url(#h-mist)"/>
+          <rect x="245" y="406" width="10" height="60" fill="url(#h-reflect)"/>
+          <ellipse cx="250" cy="406" rx="95" ry="6" fill="#fff" opacity="0.22"/>
+          <ellipse cx="250" cy="405" rx="55" ry="8" fill="#fff" opacity="0.48"/>
+          <path d="M242,406 C240,350 241,320 243,285 C245,245 246,205 249,160 C250,134 251,118 253,104 L265,104 C267,118 268,134 267,160 C263,205 262,245 258,285 C260,320 261,350 259,406 Z" fill="url(#h-jet)"/>
+          <g fill="#fff">
+            <circle cx="258" cy="96" r="11" opacity="0.95"/><circle cx="246" cy="88" r="8" opacity="0.9"/><circle cx="270" cy="92" r="7" opacity="0.85"/><circle cx="252" cy="74" r="6" opacity="0.8"/><circle cx="264" cy="78" r="5" opacity="0.75"/><circle cx="238" cy="100" r="5" opacity="0.7"/><circle cx="279" cy="104" r="5" opacity="0.65"/><circle cx="258" cy="62" r="4" opacity="0.6"/><circle cx="245" cy="70" r="3.5" opacity="0.6"/><circle cx="233" cy="112" r="3.5" opacity="0.55"/><circle cx="286" cy="118" r="3.5" opacity="0.5"/><circle cx="273" cy="66" r="3" opacity="0.5"/>
+          </g>
+          <g fill="#fff">
+            <circle cx="226" cy="150" r="2.6" opacity="0.5"/><circle cx="289" cy="170" r="2.6" opacity="0.45"/><circle cx="222" cy="210" r="2.2" opacity="0.4"/><circle cx="293" cy="240" r="2.2" opacity="0.4"/><circle cx="300" cy="150" r="2" opacity="0.4"/><circle cx="214" cy="185" r="2" opacity="0.35"/>
+          </g>
+          <text x="260" y="470" text-anchor="middle" font-family="'Poppins',sans-serif" font-weight="700" font-size="46" fill="#ffffff" letter-spacing="0.5">RLadies<tspan fill="#ff5b92">+</tspan></text>
+          <text x="260" y="508" text-anchor="middle" font-family="'Poppins',sans-serif" font-weight="600" font-size="25" fill="#ededf4" letter-spacing="8">GENEVA</text>
+        </g>
+        <polygon points="260,30 494,165 494,435 260,570 26,435 26,165" fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+    </div>
   </div>
 </section>
 
@@ -54,7 +122,7 @@ description: "RLadies+ Geneva is the Geneva chapter of the global RLadies+ netwo
         <span class="eyebrow">about</span>
         <h2>A local chapter of a worldwide movement</h2>
         <div class="body" style="margin-top:1.1rem">
-          <p>RLadies+ is a worldwide organisation whose mission is to promote gender diversity in the R community. R is one of the most widely used languages for statistics, data science and reproducible research — and the people who use it should reflect the world it describes.</p>
+          <p>RLadies+ is a worldwide organisation whose mission is to promote diversity in the R community. R is one of the most widely used languages for statistics, data science and reproducible research — and the people who use it should reflect the world it describes.</p>
           <p>In Geneva, we bring that mission home: a friendly space for R users across the region's universities, hospitals, international organisations, NGOs and industry to learn from each other, present their work, and grow — whatever their level.</p>
           <p>No prior experience is required. Curiosity is enough.</p>
           <p><b>You don't have to be a woman or from an underrepresented group to belong.</b> Our meetups are open to all genders — men included. What unites us is the shared goal, not who we are.</p>
@@ -306,7 +374,7 @@ description: "RLadies+ Geneva is the Geneva chapter of the global RLadies+ netwo
       </nav>
     </div>
     <p class="fine">
-      RLadies+ Geneva is a local chapter of <a href="https://rladies.org/" target="_blank" rel="noopener">RLadies+</a>, a worldwide organisation promoting gender diversity in the R community.
+      RLadies+ Geneva is a local chapter of <a href="https://rladies.org/" target="_blank" rel="noopener">RLadies+</a>, a worldwide organisation promoting diversity in the R community.
       · Content licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
       · Built for the community, with R 💜
     </p>
